@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* font-family: "Merriweather", serif;
+font-family: "Inter", serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared styles */
+.max-width{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.font-merri{
+    font-family: "Merriweather", serif;
+}
+
+.font-inter{
+    font-family: "Inter", serif; 
+}
+
+/* banner style */
+.banner{
+    background-image: linear-gradient(180.00deg, rgb(9, 9, 9) 0%,rgba(16, 16, 16, 0) 100%), url(../images/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 100px auto;
+}
+
+.banner .banner-text{
+    text-align: center;
+}
+
+.banner .banner-subtitle{
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.banner .banner-title{
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+    width: 600px;
+}
+
+/* offer styles */
+.offer-texts{
+    text-align: center;
+}
+
+.offer-texts .offer-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 30px;
+}
+
+.offer-texts .offer-subtitle{
+    font-size: 22px;
+    font-weight: 300;
+    color: #FF0000;
+    margin-bottom: 15px;
+}
+
+.offer-texts .offer-description{
+    font-size: 45px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 50px;
+}
