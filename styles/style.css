@@ -10,6 +10,10 @@ font-family: "Inter", serif; */
 }
 
 /* shared styles */
+.text-center{
+    text-align: center;
+}
+
 .max-width{
     max-width: 1140px;
     margin: 0 auto;
@@ -36,7 +40,7 @@ font-family: "Inter", serif; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px auto 100px auto;
+    margin: 50px auto 200px auto;
 }
 
 .banner .banner-text{
@@ -59,7 +63,7 @@ font-family: "Inter", serif; */
 
 /* offer styles */
 .offer-info{
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .offer-texts{
@@ -100,7 +104,7 @@ font-family: "Inter", serif; */
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin: 50px auto 100px auto;
+    margin: 50px auto 200px auto;
 }
 
 .party-text{
@@ -151,7 +155,7 @@ font-family: "Inter", serif; */
     flex-direction: column;
     border-radius: 16px;
     height: 400px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .address .address-details{
@@ -184,7 +188,7 @@ font-family: "Inter", serif; */
 .best-offer{
     display: flex;
     height: 340px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .best-offer-column{
@@ -255,4 +259,96 @@ font-family: "Inter", serif; */
 
 .column-3 img{
     width: 100px;
+}
+
+/* holiday sale style */
+.holiday-sale{
+    height: fit-content;
+    margin-bottom: 200px;
+}
+
+.holiday-sale-texts{
+    width: 74%;
+    margin: auto;
+}
+
+.holiday-sale-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.holiday-sale-title{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.holiday-sale-title .colored-text{
+    color: #FF0000;
+}
+
+.holiday-sale-description{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+.holiday-sale-images .left-img{
+    width: 670px;
+    z-index: 999;
+    position: relative;
+    top: 170px;
+    overflow: hidden;
+}
+
+.holiday-sale-images .right-img{
+    width: 250px;
+    z-index: 998;
+    position: relative;
+    bottom: 100px;
+    left: 150px;
+}
+
+.holiday-sale-images .bottom-img{
+    width: 100%;
+}
+
+/* awesome portfolio style */
+.awesome-portfolio{
+    margin-bottom: 200px;
+}
+
+.awesome-portfolio .awesome-portfolio-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF0000;
+    margin-bottom: 15px;
+}
+
+.awesome-portfolio .awesome-portfolio-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.awesome-portfolio .awesome-portfolio-description{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    opacity: 0.6;
+    width: 850px;
+    margin-bottom: 20px;
+}
+
+.awesome-portfolio-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.awesome-portfolio-images .portfolio-img{
+    width: 350px;
 }
