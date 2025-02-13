@@ -415,3 +415,75 @@ font-family: "Inter", serif; */
     font-weight: bold;
     display: inline;
 }
+
+/* footer style */
+.footer{
+    margin: auto;
+    background-color: #070211;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 130px;
+    max-width: 1600px;
+}
+
+hr{
+    width: 100%;
+    color: white;
+    opacity: 0.15;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer .top-text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.top-text .footer-topleft-text a{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.topright-text{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.footer .footer-social-link .social-link-logo{
+    margin-right: 20px;
+}
+
+.footer .footer-social-link{
+    padding: 40px;
+}
+
+.footer .bottom-text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.bottom-text .footer-bottomleft-text{
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+}
+
+.bottom-text .footer-bottomright-text a{
+    font-size: 15px;
+    font-weight: 300;
+}
