@@ -386,7 +386,7 @@ font-family: "Inter", serif; */
 }
 
 .news-letter-form{
-    /* width: 100%; */
+    width: 100%;
 }
 
 .news-letter-form > input[type="email"]{
