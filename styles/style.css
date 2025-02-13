@@ -10,6 +10,17 @@ font-family: "Inter", serif; */
 }
 
 /* shared styles */
+.common-btn{
+    background-color: #FF0000;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 35px;
+}
+
 .text-center{
     text-align: center;
 }
@@ -173,17 +184,6 @@ font-family: "Inter", serif; */
     color: #FF0000;
 }
 
-.address-btn .join-btn{
-    background-color: #FF0000;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 16px 32px;
-    border-radius: 8px;
-    border-style: none;
-    margin-top: 35px;
-}
-
 /* best offer style */
 .best-offer{
     display: flex;
@@ -236,7 +236,6 @@ font-family: "Inter", serif; */
 }
 
 .column-3{
-    /* margin-left: 20px; */
     width: 250px;
     margin-left: 90px;
 }
@@ -351,4 +350,68 @@ font-family: "Inter", serif; */
 
 .awesome-portfolio-images .portfolio-img{
     width: 350px;
+}
+
+/* news-letter style */
+.news-letter{
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 200px;
+    border-radius: 16px;
+    margin-bottom: 200px;
+}
+
+.news-letter-column{
+    text-align: center;
+}
+
+.news-letter-img{
+    margin-bottom: 30px;
+}
+
+.news-letter-title{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.news-letter-description{
+    font-size: 17px;
+    font-weight: 300;
+    opacity: 0.6;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.news-letter-form{
+    /* width: 100%; */
+}
+
+.news-letter-form > input[type="email"]{
+    border-style: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 60px;
+    margin: 0;
+    padding: 20px 30px;
+    font-size: 15px;
+    opacity: 0.6;
+    width: 400px;
+    display: inline;
+}
+
+.news-letter-form > input[type="button"]{
+    border-style: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 60px;
+    margin: 0;
+    padding: 20px 30px;
+    font-size: 15px;
+    background-color: #FF0000;
+    color: white;
+    font-weight: bold;
+    display: inline;
 }
