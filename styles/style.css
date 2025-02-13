@@ -415,6 +415,7 @@ font-family: "Inter", serif; */
     color: white;
     font-weight: bold;
     display: inline;
+    cursor: pointer;
 }
 
 /* footer style */
